@@ -41,13 +41,11 @@ public class Controller {
                 } else {
                     int value1 = Integer.parseInt(input.getText());
                     int value2 = Integer.parseInt(input2.getText());
-                    for(int i = 0; i < 5; i++) {
-                        result.setText("Подходящие числа: " + (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
-                                (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
-                                (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
-                                (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
-                                (value1 + (int)(Math.random()*((value2 - value1) + 1))));
-                    }
+                    result.setText("Подходящие числа: " + (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
+                        (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
+                        (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
+                        (value1 + (int)(Math.random()*((value2 - value1) + 1))) + " " +
+                        value1 + (int)(Math.random()*((value2 - value1) + 1))));
                 }
 
 
